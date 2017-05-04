@@ -66,6 +66,7 @@ class ListviewSectionsExample extends React.Component {
       <TouchableOpacity style={styles.row} onPress={() => Clipboard.setString(rowData.art)}>
         <Text style={styles.boldLabel}>{rowData.name}</Text>
         <Text style={styles.label}>{rowData.art}</Text>
+        <Text style={styles.label}>Testing</Text>
       </TouchableOpacity>
     )
   }
